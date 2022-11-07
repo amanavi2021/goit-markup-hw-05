@@ -300,9 +300,11 @@ img {
     left: 0;
     bottom: 0;
 
-    /* display: block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    padding: 27px 0;
+    height: 70px;
 
     font-weight: 700;
     line-height: calc(16/14);
